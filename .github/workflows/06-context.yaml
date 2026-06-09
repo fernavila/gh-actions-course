@@ -37,7 +37,7 @@ jobs:
         run: |
           echo "Workflow env: ${{ vars.MY_WORKFLOW_VAR }}"
           echo "Overwritten env: ${{ env.MY_OVERWRITTEN_VAR }}"
-       - name: Print Env Variables2
+      - name: Print Env Variables2
         run: |
           echo "Workflow env: ${{ vars.MY_WORKFLOW_VAR }}"
           echo "Overwritten env: ${{ env.MY_OVERWRITTEN_VAR }}"
