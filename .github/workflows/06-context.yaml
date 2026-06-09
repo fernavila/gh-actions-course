@@ -18,7 +18,6 @@ jobs:
     env:
       MY_JOB_VAR: 'job'
       MY_OVERWRITTEN_VAR: 'job'
-
     steps:
       - name: Display information
         run: |
