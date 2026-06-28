@@ -37,7 +37,7 @@ jobs:
     steps:
       - name: Running E2E tests
         run: echo "Running E2E tests..."
-  load-test:
+  load-tests:
     runs-on: ubuntu-latest
     needs:
       - deploy-nonprod
